@@ -39,7 +39,7 @@ def emotion_detector(text_to_analyze):
     # Parse the response
     response_data = json.loads(response.text)
     
-    # Extract emotions
+    # Extract emotions using dictionary syntax
     emotions = response_data['emotions']
     
     # Extract individual emotion scores
