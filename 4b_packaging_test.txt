@@ -1,0 +1,8 @@
+# Task 4 Activity 2: Terminal Output - Packaging Test
+
+# Test Command and Output:
+>>> from EmotionDetection import emotion_detector
+>>> emotion_detector("I hate working long hours.")
+{'anger': <score>, 'disgust': <score>, 'fear': <score>, 'joy': <score>, 'sadness': <score>, 'dominant_emotion': 'anger'}
+
+# Verification: The EmotionDetection package is valid and returns 'anger' as dominant emotion

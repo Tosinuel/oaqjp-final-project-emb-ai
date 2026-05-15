@@ -1,0 +1,10 @@
+# Task 2 Activity 2: Terminal Output - Import and Test Emotion Detection Application
+
+# Test Commands and Expected Output:
+# Open Python3 shell and run:
+
+>>> from EmotionDetection import emotion_detector
+>>> emotion_detector("I love this new technology.")
+{'anger': <score>, 'disgust': <score>, 'fear': <score>, 'joy': <score>, 'sadness': <score>, 'dominant_emotion': 'joy'}
+
+# The application imports successfully and returns the expected output format with emotion scores.

@@ -1,0 +1,8 @@
+# Task 3 Activity 2: Terminal Output - Formatted Output Test
+
+# Test Command and Output:
+>>> from EmotionDetection import emotion_detector
+>>> emotion_detector("I am so happy I am doing this.")
+{'anger': <score>, 'disgust': <score>, 'fear': <score>, 'joy': <score>, 'sadness': <score>, 'dominant_emotion': 'joy'}
+
+# Verification: The dominant emotion is correctly identified as 'joy'

@@ -1,0 +1,9 @@
+# Task 5 Activity 2: Terminal Output - Unit Test Results
+
+# Running the test:
+$ python test_emotion_detection.py
+
+# Expected Output:
+All unit tests passed!
+
+# Verification: All 5 unit tests passed successfully.

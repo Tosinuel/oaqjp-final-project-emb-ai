@@ -1,0 +1,13 @@
+# Task 4 Activity 1: GitHub Repository URL for __init__.py file
+# Public GitHub Repository URL of the __init__.py file:
+https://github.com/Tosinuel/oaqjp-final-project-emb-ai/blob/main/EmotionDetection/__init__.py
+
+# Contents of __init__.py:
+# EmotionDetection/__init__.py
+
+"""
+EmotionDetection package for detecting emotions in text.
+"""
+from emotion_detection.emotion_detector import emotion_detector
+
+__all__ = ['emotion_detector']
